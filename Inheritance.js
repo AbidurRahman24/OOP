@@ -1,7 +1,13 @@
-class Bus {
-    constructor(driver, wheels, seats){
+class Vahical {
+    constructor(driver, wheels){
         this.driver = driver
         this.wheels = wheels
+    }
+}
+
+class Bus extends Vahical{
+    constructor(driver, wheels, seats){
+        super(driver,wheels)
         this.seats = seats
     }
 }
