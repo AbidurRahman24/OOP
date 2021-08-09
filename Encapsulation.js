@@ -1,3 +1,5 @@
+// Encapsulation means privet or protect
+
 class Tiger{
     #speed = 100;
     location = 'Sundarban';
@@ -14,3 +16,5 @@ royal.name = 'Pormanobic Bengal';
 royal.location = 'Borishal';
 
 royal.run();
+
+
